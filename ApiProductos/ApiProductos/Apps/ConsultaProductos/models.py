@@ -56,4 +56,8 @@ class Categoria(models.Model):
 
 class Empresa(models.Model):
     id_empresa = models.IntegerField(primary_key=True, auto_created=True, null=False)
+    #FALTA TERMINAR
+
+    def __unicode__(self):
+        return self.id_empresa
 
