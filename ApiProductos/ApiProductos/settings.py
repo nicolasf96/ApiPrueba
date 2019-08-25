@@ -75,8 +75,11 @@ WSGI_APPLICATION = 'ApiProductos.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'Productos.db',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ProductosPrueba',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': 'localhost'
     }
 }
 
